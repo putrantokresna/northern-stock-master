@@ -1,0 +1,98 @@
+.nav-link.active{
+  -webkit-text-stroke: 0.75px orange;
+}
+
+.exp-datepicker::-webkit-input-placeholder{
+  color: white !important;
+}
+
+.js-example-basic-multiple{
+  font-weight: bold !important;
+  color: white !important;
+  background: #FF9029 !important; 
+  border-color: #FF9029 !important;
+}
+
+#table_wrapper div{
+  color: white;
+}
+
+#table_wrapper label{
+  color: white;
+}
+
+#table_wrapper label input{
+  font-weight: bold;
+  color: white;
+  background: #FF9029; 
+  border-color: #FF9029;
+}
+
+#table_wrapper label select{
+  color: white;
+  background: #FF9029; 
+  border-color: #FF9029;
+}
+
+.pagination li a{
+  color: white !important;
+  background: #FF9029 !important; 
+  border-color: #FF9029 !important;
+}
+
+.dropdown-menu.content.show{
+    display: flex;
+}
+
+
+.message-wrap button {
+    position: relative;
+    display: inline-block;
+    border:unset;
+  }
+
+  .message-wrap .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color:#FF9029;
+    color: white;
+  }
+
+/* select2 style */
+
+.select2.select2-container{
+    width: 100% !important;
+}
+
+.message-wrap .dropdown-menu.content{
+    left: -15rem;
+    width: 20rem;
+    overflow: auto;
+    height: 20rem;
+}
+
+/* loader */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
